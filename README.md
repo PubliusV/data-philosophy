@@ -155,15 +155,15 @@ But here's the thing: sometimes you build something that just reduces friction. 
 
 If you don't actually sit with what went wrong, your failure will only ever be that: a failure. You have to actually get feedback, look at what happened, work through key inflection points (whether in decision-making or execution), and develop systems (where appropriate) to mitigate them, without being overly bureaucratic or creating processes that slow everyone down.
 
-I've had projects that didn't land. Media mix models that never got deployed because leadership changed mid-project. Segmentation work that sat unused because the organization wasn't ready to act on it. Revenue forecasting that was accurate but didn't lead to proactive decisions because finance was risk-averse.
+I've had projects that didn't land. Media mix models that never got deployed because leadership changed mid-project. Segmentation work that sat unused because the organization wasn't ready to act on it. Forecasting that was accurate but didn't lead to proactive decisions because the stakeholder was risk-averse.
 
 Each taught me something:
 
 - **Sometimes the problem is technical.** Wrong model for the data. Bad assumptions. Overfitting. These are fixable with better methodology.
 
-- **Sometimes the problem is organizational.** No buy-in from leadership. No one with authority to act on the insight. Competing priorities. These are harder to fix and often require better stakeholder management upfront.
+- **Sometimes the problem is organizational.** No buy-in from leadership. No one with authority to act on the insight. Competing priorities. These are harder to fix and often require better stakeholder management upfront, and can sometimes still be out of your control.
 
-- **Sometimes the problem is timing.** Great work, wrong moment. The organization wasn't ready. Budget got cut. Leadership changed. These are often outside your control, but recognizing them helps you not internalize the failure as purely technical.
+- **Sometimes the problem is timing.** Great work, wrong moment. The organization wasn't ready. Budget got cut. Leadership changed. These are often outside your control, but recognizing them helps hone your instincts for when teams are ready and able to act and when they aren't.
 
 The key is being honest about which one it is, learning from it, and not making the same mistake twice.
 
