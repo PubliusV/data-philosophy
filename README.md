@@ -169,7 +169,7 @@ Not all companies are ready for data work. And not all companies that say they'r
 
 **Green flags I look for:**
 
-- **How they handle data-driven insights that counter their intuitions.** For better or worse our brains are wired with myriad pattern-recognition systems which aided us in survival in times past. The unfortunate truth when it comes to data work is that most of these pattern-recognition systems are maladapted for analyzing data; it's why we call them biases. Whether survivorship bias, selection bias, confirmation bias, even Simpson's Paradox (which isn't a bias, but which can still trip up our intuitions), all of these come from bindspots in our default behaviors or beliefs.
+- **How they handle data-driven insights that counter their intuitions.** For better or worse our brains are wired with myriad pattern-recognition systems which aided us in survival in times past. The unfortunate truth when it comes to data work is that most of these pattern-recognition systems are maladapted for analyzing data; it's why we call them biases. Whether survivorship bias, selection bias, confirmation bias, even Simpson's Paradox (which isn't a bias, but which can still trip up our intuitions), all of these come from blindspots in our default behaviors or beliefs.
 
   If you showed a leadership team the results of an experiment which contradicts their bias, would they accept that the numbers should override common intuition? It's fine to revisit the data process in the face of unintuitive results. That's a healthy response. But if you have confidence in your data team and your process, and the numbers do check out under further scrutiny, a data-driven team lets the numbers lead the decision-making. Not gut feel.
 
