@@ -59,7 +59,7 @@ When I start working with a new team, I ask questions designed to uncover both q
 
 Once you've identified a problem worth solving, the next question is: **What kind of project is this?**
 
-I've learned that there's no such thing as a universally optimal solution. It's all well and good to know how to build an ARIMA or LSTM forecasting model, but if you only have six months of noisy data, its utility is going to be minimal at best. Sometimes a simple heuristic model is a better fit. It's not sexy, but it works.
+I've learned that there's no such thing as a universally optimal solution. It's all well and good to know how to build an ARIMA or LSTM forecasting model, but if you only have six months of noisy data, its utility is going to be minimal at best. Sometimes a simple heuristic model is a better fit. I've learned over the years to refuse to let shiny models distract me from what tool might be the best fit for the task at hand.
 
 There's also the cost-benefit analysis. An advanced or time-consuming solution might be the technically "optimal" solution, but if you consider the potential business impact, sometimes the upside is too small to support the work required for it.
 
