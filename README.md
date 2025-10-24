@@ -3,7 +3,7 @@
 
 I've spent 7 years doing data work at growth-stage companies: building infrastructure, designing experiments, forecasting revenue, optimizing marketing spend, and creating tools that help teams make better decisions. Along the way, I've learned that data work isn't just a matter of technical skill, but also understanding problems, building relationships, choosing the right tools for the job, and honestly measuring your results.
 
-This guide summarizes how I think about doing data work that creates real value. It's not a playbook (every company is different), but it's a framework I return to when deciding what to work on and how to approach it.
+This piece summarizes how I think about doing data work that creates real value. It's not a prescriptive playbook so much as it is a framework of thinking about how data fits best into an organization that values data-driven decision making.
 
 ---
 
@@ -11,45 +11,41 @@ This guide summarizes how I think about doing data work that creates real value.
 
 ### Deciding Which Problems Are Worth Tackling
 
-Not all problems are created equal. You could spend months building the perfect model for a problem that doesn't actually move the needle. Or you could get swamped addressing a hundred small, easy problems that feel productive but don't add up to much.
+Companies, especially small to mid-sized ones, are complex environments that move quickly. You'll never be wanting for all sorts of data requests and data quality tickets, which means you have to be decisive about which tickets and projects you pick up and how you prioritize them.
 
 I triage work by considering three dimensions:
 
-- **Current cost**: What's this problem costing us today? Sometimes it's obvious (manual reporting consuming days/week of analyst time). Other times it's hidden (decision-makers flying blind because they don't have the right data, leading to suboptimal choices that compound over time). I'll also consider opportunity cost: if we work on this problem, what other problems does it prevent or delay us from solving?
+- **Current cost**: What's this problem costing us today? Sometimes it's something obvious, like inventory doesn't know how much stock they have on hand, which means the potential for selling products you don't really have and the practical headaches which ensue. Other times costs are more nuanced or hidden, for example: how do you quantify the potential missed revenue from not having an experimentation framework to an organization that has never run experiments before? I'll also consider opportunity cost: if we work on this problem, what other problems does it prevent or delay us from solving?
 
-- **Future benefit**: If we solve this, what changes? Does it unlock a new capability? Does it improve decision quality? Does it free up capacity for higher-value work? The key is being honest about whether the benefit is real or aspirational.
+- **Future benefit**: If we solve this, what changes? Does it unlock a new capability? Does it improve decision quality? Does it free up capacity for higher-value work?
 
 - **Effort involved**: How hard is this, really? I'm not just talking about technical complexity. Is the data available and clean? Do we have organizational buy-in? Will people actually use this once it's built?
 
-Some problems are really promising but really big. Others are easy wins, but there are so many of them it's easy to suddenly get swamped doing busywork. The key questions I return to: **What must get done, even if it doesn't feel urgent?** These projects require advocacy and endurance – you have to fight to keep them moving, and that requires being able to articulate their value. **For what feels urgent, will it really make a difference?** Managing these projects requires the ability to say "no." It's the only way you make room for the low-urgency, high-importance tasks.
-
-This is where experience matters. Early in my career, I'd chase shiny problems or drown myself in ad-hoc requests because I felt too junior to say "no" (managers, pay attention, sometimes you're the one who has to say it instead of your direct report). Now I'm more disciplined about understanding whether solving a problem will actually change behavior and have some experience behind me to advocate for a priority list I feel good about.
+Obviously these three dimensions require making tradeoffs. The most valuable projects are often also the most time consuming. It's important to know which problems your data team defaults to solving so that you can build systems to address the other category. In most organizations I've been a part of larger projects have almost always suffered due to prioritizing ad-hoc requests. One particularly successful system one of my former teams implemented was what we called "20% time," where we took some or most of our Fridays to work on projects we believed were important but hadn't been prioritized. Holding that time with intention required our team to plan ahead to make sure the ad-hoc work was getting done, but also gave them permission to recognize that not every request is a fire drill. Some of that team's most important long-term work came out of that 20% time. Our data infrastructure improved because data enngineers could actually take the time necessary to wrestle with some of the more gangly data pipeline issues we were having, and I was able to build out an entire predictive model and launch it with our marketing team. So, I highly recommend giving your teams permission to prioritize that low-urgency work.
 
 ### Building Relationships in Practice
 
-Data is a service profession first and foremost. You're there to help other teams function better: marketing, product, finance, operations. That means you can't work in a silo. If you're not embedded in what teams are actually doing, you'll build things no one needs or only hear about projects after they're already in post-mortem.
+I firmly believe that Data is a service profession first and foremost. You're there to help other teams function better: marketing, product, finance, operations. That means you can't work in a silo. If you're not embedded in what teams are actually doing, you'll build things no one needs or only hear about projects after they're already shipped. And then you'll likely get stuck with the questions about why things didn't go as expected.
 
-Here's what building relationships actually looks like in practice:
+Here are some practices I've found valuable for building strong relationships with your SME's:
 
-- **Meeting with teams regularly.** Not just when they need something from you, but to stay in the loop on what they're working on. The most effective data team I've been in has had standing meetings with all business functions; it doesn't have to be weekly, but it has to happen regularly. It's hard to offer data help for a project you never hear about.
+- **Meet with them regularly.** Not just when they need something from you, but to stay in the loop on what they're working on. Take proactive interest in their work and needs. The most effective data team I've been in has had standing meetings with all business functions; it doesn't have to be weekly, but it has to be consistent.
 
-- **Asking tough questions.** "Do you actually still use that report I built you a month ago?" It's uncomfortable, but necessary. If they're not using it, we should either fix it or kill it. Maintaining unused infrastructure is a waste. Plus, once you get over that pain of that shiny new report you spent weeks on getting abandoned, you can add it as another data point in your dataset of effective vs. ineffective data products. If you never asked, you'd never know.
+- **Asking for feedback.** "Do you actually still use that report I built you a month ago?" Sometimes it can be uncomfortable to ask for raw feedback like that. It can be demoralizing to find out that your work isn't being leveraged by the people you did it for. But you were going to find out eventually, so it's better to get it from them so that you can actually talk through what isn't working for them. On top of that, it's really useful to get close knowledge of your partner-team's consistent pain points. Ask them what they're struggling with this week and see if they're still having issues a week or a month from now. Sometimes that's the best indicator that it's worth making a ticket.
 
-- **Probing for gaps.** Where is trust lacking in the data? Where is information lacking? Where are decisions being made on gut feel because the numbers aren't there or aren't trusted? These gaps are where data work can create real value, but you only find them by asking.
-
-- **Staying operational.** The best data insights come from understanding the day-to-day reality of how teams work. If you only parachute in for "strategic projects," you'll miss the small opportunities that compound into big wins.
+- **Probing for gaps.** Where is trust lacking in the data? Where is information lacking? Where are decisions being made on gut feel because the numbers aren't there or aren't trusted? 
 
 ### Questions I Ask When Engaging With a New Team
 
-When I start working with a new team, I ask questions designed to uncover both quick wins and strategic opportunities:
+These are some questions I've learned to ask to operational teams I'm partnering with, either as I'm onboarding with them or as occasional touch-bases to see if things have changed:
 
-1. **"What do you spend a lot of time on, when it comes to reporting or decision-making?"** I'm probing for repetitive work that could be automated. If someone is manually pulling the same numbers every week, that's low-hanging fruit.
+1. **"What do you spend a lot of time on, when it comes to reporting or decision-making?"** I'm probing for repetitive work that could be automated. If someone is manually pulling the same numbers every week, that might be something I can spend a day on to give them a day of their time back every week.
 
-2. **"How do you feel about the data you have right now?"** This tells me about trust. If they say "I never know if the numbers are right," that's a data quality problem. If they say "I have data but I don't know what it means," that's a communication problem.
+2. **"How do you feel about the data you have right now?"** This tells me about trust. If they say "I never know if the numbers are right," I've got a data quality problem I can take back to Data Engineering or resolve in the metrics layer. If they say "I have data but I don't know what it means," then I can either work on how it's presented or it might be an opportunity to train them on a hard-to-grasp tool or concept.
 
-3. **"Are there any decisions you have to make regularly that feel like you have to rely too much on your gut?"** This surfaces places where better data or better reporting would actually change behavior. These are high-value opportunities.
+3. **"Are there any decisions you have to make regularly that feel like you have to rely too much on your gut?"** This helps me understand where I can make future-facing impact. Sure sometimes these are still descriptive problems, but often the answers to this question lead to prescriptive or predictive projects, which is likely why your company has a data team in the first place.
 
-4. **"If you had a data genie that could answer any question with 100% certainty, what would you ask it first and why?"** This is the "blue sky" question. Sometimes it reveals high-effort, high-impact projects worth considering. Other times it reveals a key flaw in data trust that will enable you to build a stronger relationship with that function.
+4. **"If you had a data genie that could answer any question with 100% certainty, what would you ask it first and why?"** I like probing with an open-ended question every once in a while and especially when I'm just starting out with a team (Marketing people will love this question, but you might get an eye roll from Operations or Finance, but who cares). Sometimes it reveals high-effort, high-impact projects worth considering. Other times it reveals a key flaw in data trust that will enable you to build a stronger relationship with that function. Either way it helps me understand what's really important to that particular team, which will help me with all the rest.
 
 ---
 
@@ -59,17 +55,17 @@ When I start working with a new team, I ask questions designed to uncover both q
 
 Once you've identified a problem worth solving, the next question is: **What kind of project is this?**
 
-I've learned that there's no such thing as a universally optimal solution. It's all well and good to know how to build an ARIMA or LSTM forecasting model, but if you only have six months of noisy data, its utility is going to be minimal at best. Sometimes a simple heuristic model is a better fit. I've learned over the years to refuse to let shiny models distract me from what tool might be the best fit for the task at hand.
+There are some analysts out there who are just dying to find a way to use a neural-net to answer every question, just like there are some who wish they could always just build a dashboard and call it a day. But we all know there's not a one-size-fits all answer. What it took me some time to realize though is that the textbook 'best' solution for a problem might not always be the tool you actually __should__ use in your situation.
 
-There's also the cost-benefit analysis. An advanced or time-consuming solution might be the technically "optimal" solution, but if you consider the potential business impact, sometimes the upside is too small to support the work required for it.
+Here's how I break it down:
 
-I find the decision comes down to:
+- **Deep understanding of the problem.** What are we actually trying to solve? What does success look like? What happens if we don't solve it? This is what a lot of the above sections are about. Problem-framing helps me set up upper and lower limits for the work: what's 'good enough' look like and how far do we need to go to hit the highest expectation? (e.g. maybe someone will use your predictive model if it's at least 85% accurate, but they'll shout for joy if you get over 95% accuracy, while hitting 99.9999% won't do anything for them because it's overkill)
 
-- **Deep understanding of the problem.** What are we actually trying to solve? What does success look like? What happens if we don't solve it? I spend a lot of time in this phase because getting it wrong here cascades into wasted time and money down the road.
-
-- **Available data.** What do we actually have? Is it clean? Is there enough of it? Is it the right data? I've been burned by starting ambitious projects only to discover the data isn't reliable or doesn't exist. Now I validate data quality and coverage upfront. This also dictates the sort of solutions you can choose from; hence the forecasting discussion above.
+- **Available data.** What do we actually have? Is it clean? Is there enough of it? Is it the right data? Sometimes I've started building out a project timeline only to discover a week in that the data isn't reliable or doesn't exist. Now I validate data quality and coverage upfront. This also dictates the sort of solutions you can choose from.
 
 - **Cost-benefit.** What's the potential business impact, realistically? Does it justify a complex solution, or is a simpler approach good enough? "Good enough" is underrated by greener data workers IMHO, so interns, listen up.
+
+I find having these three bases covered lets me evaluated solutions that I know will be promising upfront without wasting effort. Who knows, sometimes the heuristic model will beat out your fancy neural-net, and that's fine, because at the end of the day it's about how well we solve the problem, not the tool we use, that counts.
 
 ### My Decision Framework (Such As It Is)
 
@@ -77,27 +73,25 @@ I don't have a rigid decision framework, but here's how I generally approach mak
 
 - **Identify short and long-term goals.** I refuse to make short-term gains at substantial long-term expense. That means I'm not afraid advocate for a quick-and-dirty approach if speed matters more than elegance, but I will make sure it's not at the expense of future data quality, tech-debt, or scalability concerns.
 
-- **Understand the place you're in.** What's the company's maturity? What's the team's capability? What's realistic given the constraints? A Series A startup with two engineers has different needs than a Series C company with a 50-person tech team.
+- **Understand your environment.** What's the company's maturity? What's the team's capability? What's realistic given the constraints? What will knock the socks off of leaders at a Series A might seem like a waste of time at a scale-up, not to mention that they have different budgets, priorities, and constraints.
 
 - **Do the best with what you have.** Optimize for impact given the constraints: I've worked at companies with messy data and limited resources. You can still create value; you just have to be smart about where you focus.
 
-- **Experiment early.** Testing assumptions early aligns decisions to desired outcomes and reduces risk. If I'm not sure whether a complex model is worth building, I'll prototype a simpler version first to validate that the approach makes sense (and that the problem is important enough to warrant the effort) before investing in production-grade work.
+- **Experiment early.** Testing assumptions early aligns decisions to desired outcomes and reduces risk. Green analysts jump into the deep end head first. I know because I've done it. But now I've learned that it's almost always more effective to approach projects iteratively, especially when you're doing model development.
 
 ### The Types of Data Work I Do
 
-Over the years, I've done a range of data work:
+To shift the focus back onto my work and how it fits into this framework, I've done a variety of data work over the years across the whole stack:
 
-- **Infrastructure & analytics engineering**: dbt pipelines, semantic layers, self-service BI platforms. This is foundational work. If your infrastructure is broken, nothing else matters.
+- **Infrastructure & data/analytics engineering**: dbt pipelines, semantic layers, self-service BI platforms. This is the __sine qua non__ of our profession; if you have bad or inaccessible data, nothing matters until you fix that problem.
 
 - **Predictive modeling**: Revenue forecasting (LSTM), customer segmentation (clustering), churn prediction. These are the "classic" ML projects, but they're only valuable if they actually inform decisions.
 
-- **Marketing analytics**: Media mix modeling, multi-touch attribution, incrementality testing. This is where I've spent a lot of time. Marketing measurement is hard because causality is messy, but getting it right has huge ROI.
+- **Marketing analytics**: Media mix modeling, multi-touch attribution, incrementality testing. This is where I've spent a lot of time. Marketing measurement is hard because causality is messy, but getting it right (or more accurately, getting it 'least wrong') has huge ROI.
 
-- **Experimentation**: A/B test design, power analysis, statistical rigor frameworks. I'm a stickler for experimental rigor because I've seen too many bad decisions made from poorly designed tests.
+- **Experimentation**: A/B test design, multi-armed bandits, bespoke experimental design. I'm a stickler for experimental rigor because it's one of the easiest data processes to be sophomoric about. Everyone thinks experimentation is simple, until you try to tell them why their sample size of fifty doesn't have the power to detect the effect size they're looking for.
 
-- **Custom data products**: Streamlit apps, automated reporting, web scraping frameworks, API integrations. Sometimes the best solution isn't an analysis; it's a tool that enables someone else to do their job better.
-
-Each has its place. The key is choosing the right ones for the place your organization is in. Don't expect your first data hire to be building experimentation frameworks or automated RAG systems in their first year. Get the foundation built first, so that your big projects have the impact you need and expect.
+- **Custom data products**: Streamlit apps, automated reporting, web scraping frameworks, API integrations. Sometimes the best solution isn't an analysis; it's a tool that enables someone else to do their job better. In other words, sometimes data professionals get to dress up as entry-level software engineers for a week, and honestly it's pretty fun.
 
 ---
 
@@ -151,9 +145,7 @@ But here's the thing: sometimes you build something that just reduces friction. 
 
 ### Learning From Projects That Didn't Land
 
-**Post-mortem, post-mortem, post-mortem.**
-
-If you don't actually sit with what went wrong, your failure will only ever be that: a failure. You have to actually get feedback, look at what happened, work through key inflection points (whether in decision-making or execution), and develop systems (where appropriate) to mitigate them, without being overly bureaucratic or creating processes that slow everyone down.
+Nobody does post-mortems enough, at least in my experience (FAANG friends, tell me it's better up there, please). If you don't actually sit with what went wrong, your failure will only ever be that: a failure. You have to actually get feedback, look at what happened, work through key inflection points (whether in decision-making or execution), and develop systems (where appropriate) to mitigate them, without being overly bureaucratic or creating processes that slow everyone down.
 
 I've had projects that didn't land. Media mix models that never got deployed because leadership changed mid-project. Segmentation work that sat unused because the organization wasn't ready to act on it. Forecasting that was accurate but didn't lead to proactive decisions because the stakeholder was risk-averse.
 
