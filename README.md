@@ -65,7 +65,7 @@ There's also the cost-benefit analysis. An advanced or time-consuming solution m
 
 I find the decision comes down to:
 
-- **Deep understanding of the problem.** What are we actually trying to solve? What does success look like? What happens if we don't solve it? I spend a lot of time in this phase because getting it wrong here cascades into waste later.
+- **Deep understanding of the problem.** What are we actually trying to solve? What does success look like? What happens if we don't solve it? I spend a lot of time in this phase because getting it wrong here cascades into wasted time and money down the road.
 
 - **Available data.** What do we actually have? Is it clean? Is there enough of it? Is it the right data? I've been burned by starting ambitious projects only to discover the data isn't reliable or doesn't exist. Now I validate data quality and coverage upfront. This also dictates the sort of solutions you can choose from; hence the forecasting discussion above.
 
