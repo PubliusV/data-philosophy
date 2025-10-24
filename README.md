@@ -55,7 +55,7 @@ These are some questions I've learned to ask to operational teams I'm partnering
 
 Once you've identified a problem worth solving, the next question is: **What kind of project is this?**
 
-There are some analysts out there who are just dying to find a way to use a neural-net to answer every question, just like there are some who wish they could always just build a dashboard and call it a day. But we all know there's not a one-size-fits all answer. What it took me some time to realize though is that the textbook 'best' solution for a problem might not always be the tool you actually __should__ use in your situation.
+There are some analysts out there who are just dying to find a way to use a neural-net to answer every question, just like there are some who wish they could always just build a dashboard and call it a day. But we all know there's not a one-size-fits all answer. What it took me some time to realize though is that the textbook 'best' solution for a problem might not always be the tool you actually _should_ use in your situation.
 
 Here's how I break it down:
 
@@ -83,7 +83,7 @@ I don't have a rigid decision framework, but here's how I generally approach mak
 
 To shift the focus back onto my work and how it fits into this framework, I've done a variety of data work over the years across the whole stack:
 
-- **Infrastructure & data/analytics engineering**: dbt pipelines, semantic layers, self-service BI platforms. This is the __sine qua non__ of our profession; if you have bad or inaccessible data, nothing matters until you fix that problem.
+- **Infrastructure & data/analytics engineering**: dbt pipelines, semantic layers, self-service BI platforms. This is the _sine qua non_ of our profession; if you have bad or inaccessible data, nothing matters until you fix that problem.
 
 - **Predictive modeling**: Revenue forecasting (LSTM), customer segmentation (clustering), churn prediction. These are the "classic" ML projects, but they're only valuable if they actually inform decisions.
 
